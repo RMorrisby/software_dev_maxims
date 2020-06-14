@@ -2,9 +2,9 @@
 
 A collection of maxims & other thoughts, concering all aspects of software develoment.
 
-Agile / SCRUM
-Bugs
-Team health
+- Agile / SCRUM
+- Bugs
+- Team health
 
 
 ## Agile / SCRUM
@@ -13,15 +13,15 @@ Team health
 
 Always remember the Agile Manifesto :
 
-** Individuals and interactions over processes and tools
-** Working software over comprehensive documentation
-** Customer collaboration over contract negotiation
-** Responding to change over following a plan
+- Individuals and interactions over processes and tools
+- Working software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
 
 (while there is value in the items on the right, we value the items on the left more)
 
 The Agile Manifesto can be largely distilled into : 
-** Do the minimum work required to satisfy your users in the long-term
+- **Do the minimum work required to satisfy your users in the long-term**
 
 Therefore we should :
 

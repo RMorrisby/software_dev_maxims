@@ -13,12 +13,14 @@ A collection of maxims & other thoughts, concering all aspects of software devel
 
 Always remember the Agile Manifesto :
 
+```
 - Individuals and interactions over processes and tools
 - Working software over comprehensive documentation
 - Customer collaboration over contract negotiation
 - Responding to change over following a plan
 
 (while there is value in the items on the right, we value the items on the left more)
+```
 
 The Agile Manifesto can be largely distilled into : 
 - **Do the minimum work required to satisfy your users in the long-term**
@@ -70,7 +72,7 @@ Performance of automated tests is a secondary concern, not a primary one. Use a 
 
 Certain languages are inherently less readable than others (e.g. Java vs. Ruby). A lot of automated testing does not require advanced language usage - but does require good general software development skills. Therefore if your team does not have much skill in nimbler, more readable languages, always consider training & learning. Always remember the long-term goal. This is an investment!
 
-Ae extreme example would be : would you write automated tests for a web-UI in Assembler? You could do it, but it would be quicker **in the long-term** to learn a more suitable language.
+An extreme example would be : would you write automated tests for a web-UI in Assembler? You could do it, but it would be quicker **in the long-term** to learn a more suitable language.
 
 
 
@@ -80,11 +82,9 @@ Ae extreme example would be : would you write automated tests for a web-UI in As
 
 A bug is a bug.
 
-
-
 The more bugs your software has, the more disgusting it is to use.
 
-
+`TODO more`
 
 
 
@@ -105,7 +105,7 @@ The more bugs your software has, the more disgusting it is to use.
 
 Team health is a three-legged stool. The three legs are productivity, efficiency and morale. 
 
-The project this the team; the team is the project.
+The project is the team; the team is the project.
 
 Everyone is responsible for the team's health.
 
@@ -119,13 +119,17 @@ Communication is vital.
 
 Don't think "someone else will do it" until you've heard them say it.
 
+If someone says they'll do something, hold them to it.
+
 Cargo cults were bad; software development cargo cults are just as bad. If you don't understand why something has to be done a certain way, ask your leaders.
+
+If you don't know why you're doing something a certain way, why are you doing it?
 
 ### Signs of poor team health
 
-Your Bus Factor is < 1 (your project is living on borrowed time)
+Your [Bus Factor](https://en.wikipedia.org/wiki/Bus_factor) is < 1 (your project is living on borrowed time)
 
-Your Bus Factor is < 2 (your project is like an aeroplane with one engine)
+Your [Bus Factor](https://en.wikipedia.org/wiki/Bus_factor) is < 2 (your project is like an aeroplane with one engine)
 
 Any of your leaders say "we don't need to do Retrospectives".
 
@@ -149,7 +153,13 @@ Make sure everyone can attend Retrospectives. If some people cannot attend one, 
 
 Focus on the good as well as the bad. Take time to understand why something has gone well, just as you take time to understand why something has gone badly.
 
+Retrospectives take as long as they take. If they're taking too long, hold them more frequently.
 
+Make sure that everyone gets a good chance to contribute.
+
+The goal of Retrospectives is to identify Actions to improve the team's health. It is not just for whinging!
+
+[Retrospectives](https://github.com/RMorrisby/software_dev_maxims/blob/master/Retrospectives.md)
 
 # Development
 
@@ -158,3 +168,7 @@ Always automate any set of steps that the team will do more than twice - executi
 Always add comments to your classes & methods. State what they intend to do, not what they are actually doing! The most common bugs occur when the intent differs from the action; the easier these differences are to spot, the fewer bugs you will have.
 
 Conciseness is a virtue, but readability is a greater virtue.
+
+Always put TODOs in your code.
+
+`TODO more`

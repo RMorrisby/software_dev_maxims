@@ -157,7 +157,7 @@ Retrospectives take as long as they take. If they're taking too long, hold them 
 
 Make sure that everyone gets a good chance to contribute.
 
-The goal of Retrospectives is to identify Actions to improve the team's health. It is not just for whinging!
+The goal of Retrospectives is to identify problems faced by the team, so that they might be fixed and the team can be happier and more productive. It is not just for whinging!
 
 [Retrospectives](https://github.com/RMorrisby/software_dev_maxims/blob/master/Retrospectives.md)
 

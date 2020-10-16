@@ -6,7 +6,6 @@ A collection of maxims & other thoughts, concering all aspects of software devel
 - Bugs
 - Team health
 
-
 ## Agile / SCRUM
 
 (for better or worse, most people treat "Agile" and "SCRUM" as being equivalent. For pragmatic reasons, we will not attempt to split the two terms here, but instead focus on good and bad practices across both)
@@ -22,8 +21,10 @@ Always remember the Agile Manifesto :
 (while there is value in the items on the right, we value the items on the left more)
 ```
 
-The Agile Manifesto can be largely distilled into : 
+The Agile Manifesto can be largely distilled into :
+
 - **Do the minimum work required to satisfy your users in the long-term**
+- (when you want to increase your user-count, you will naturally do more work to add in more features, polish, etc.)
 
 Therefore we should :
 
@@ -38,9 +39,6 @@ If projects only aim for short-term goals, the project will die before it reache
 Therefore the team should always invest in itself - develop tools, processes & people that will help it work more quickly, effectively and happily.
 
 The earlier the team invests in itself, the more benefit they will reap (that's why it's called investment). This applies to the entire team, not just automated testing.
-
-
-
 
 ## Testing / QA
 
@@ -62,21 +60,18 @@ Make sure that tests are actually doing what they intend to be doing.
 
 Conciseness is a virtue, but readability is a greater virtue.
 
-Primary concerns for automated tests are : accuracy, readability, maintainability. 
+Primary concerns for automated tests are : accuracy, readability, maintainability.
 
-Automated tests must be implemented with these as the primary questions : 
-1) If a feature-change breaks a test, how quickly can you ascertain with 100% certainty that the test needs to be updated or has found a bug?
-2) If the test needs to be updated, how quickly can this be done while keeping the test accurate, readable and maintainable?
+Automated tests must be implemented with these as the primary questions :
 
-Performance of automated tests is a secondary concern, not a primary one. Use a language & toolset that will provide the best long-term solutions to those two questions. 
+1. If a feature-change breaks a test, how quickly can you ascertain with 100% certainty that the test needs to be updated or has found a bug?
+2. If the test needs to be updated, how quickly can this be done while keeping the test accurate, readable and maintainable?
+
+Performance of automated tests is a secondary concern, not a primary one. Use a language & toolset that will provide the best long-term solutions to those two questions.
 
 Certain languages are inherently less readable than others (e.g. Java vs. Ruby). A lot of automated testing does not require advanced language usage - but does require good general software development skills. Therefore if your team does not have much skill in nimbler, more readable languages, always consider training & learning. Always remember the long-term goal. This is an investment!
 
 An extreme example would be : would you write automated tests for a web-UI in Assembly? You could do it, but it would be quicker **in the long-term** to learn a more suitable language.
-
-
-
-
 
 ## Bugs
 
@@ -86,24 +81,9 @@ The more bugs your software has, the more disgusting it is to use.
 
 `TODO more`
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Team health
 
-Team health is a three-legged stool. The three legs are productivity, efficiency and morale. 
+Team health is a three-legged stool. The three legs are productivity, efficiency and morale.
 
 The project is the team; the team is the project.
 
@@ -142,8 +122,9 @@ Some parts of the team are consistently underworked, while others are consistent
 People don't talk to each other.
 
 The team does not invest in itself :
- - training
- - building tools to help the team (e.g. a script to build & deploy your software)
+
+- training
+- building tools to help the team (e.g. a script to build & deploy your software)
 
 ### Retrospectives
 

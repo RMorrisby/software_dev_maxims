@@ -72,7 +72,7 @@ Performance of automated tests is a secondary concern, not a primary one. Use a 
 
 Certain languages are inherently less readable than others (e.g. Java vs. Ruby). A lot of automated testing does not require advanced language usage - but does require good general software development skills. Therefore if your team does not have much skill in nimbler, more readable languages, always consider training & learning. Always remember the long-term goal. This is an investment!
 
-An extreme example would be : would you write automated tests for a web-UI in Assembler? You could do it, but it would be quicker **in the long-term** to learn a more suitable language.
+An extreme example would be : would you write automated tests for a web-UI in Assembly? You could do it, but it would be quicker **in the long-term** to learn a more suitable language.
 
 
 
